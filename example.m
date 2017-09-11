@@ -8,7 +8,7 @@ pause();
 %------------------------MATLAB SUBMIT EXAMPLE----------------------------%
 %-------------------------------------------------------------------------%
 
-% MATLAB SUBMIT is a tool to run MATLAB functions on the IENT cluster. In 
+% MATLAB SUBMIT is a tool to run MATLAB functions on clusters. In 
 % this example the fundamental functionality of MATLAB SUBMIT is demonstrated. 
 
 % To make it interesting we are going to create some beautiful images of 
@@ -105,11 +105,6 @@ fprintf('\nJOB SUBMISSION\n');
     % '+queue' folder passing our parameter and configuration struct.
     % Please follow the dialog of the program... 
     
-% If the submition was successful, let's take a look at 
-% 'http://mamsell.ient.rwth-aachen.de:8080/qstat/qstat.cgi'
-% Here you can see all jobs currently running on the cluster. Can you spot
-% yours? You might have to refresh the page a few times. Please wait until
-% the jobs disappear.
 
 %% COLLECT RESULTS
 fprintf('\nCOLLECT RESULTS\n');
