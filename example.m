@@ -196,10 +196,4 @@ fprintf('\nRESTART\n');
 disp('END OF EXAMPLE')
 pause();
 
-%% TIDY UP
-
-% Delete results so example can be run again (if the results of the job still 
-% existed you could only do a parameter extension, not a totally new run)
-if exist(sprintf('/scratch/%s/queue_results/MATLAB_SUBMIT_example', getenv('USER')),'dir')
-    rmdir(sprintf('/scratch/%s/queue_results/MATLAB_SUBMIT_example', getenv('USER')),'s');
 end
