@@ -1,7 +1,7 @@
 MatlabSubmit
 ================
 This tool helps you to run MATLAB jobs on a computer cluster and analyse results.  
-In order to get a quick start, just run the example.  
+In order to get a quick start, just run the example. For this you need to adjust some paths, as we do not know how your architecture looks like.  
 If you have further questions or want to report bugs, do not hesitate to open an issue.
 
 Supported cluster platforms
