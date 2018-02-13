@@ -1,3 +1,5 @@
+function example
+
 % Copyright (c) 2017, Christian Rohlfing, Julian Becker, Jens Schneider, Patrick Wilken, Tobias Kabzinski
 
 edit('example.m');
