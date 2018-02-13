@@ -4,6 +4,7 @@ function example
 
 edit('example.m');
 disp('Welcome to MATLAB SUBMIT EXAMPLE!')
+disp('(Press key to continue)')
 pause();
 
 %-------------------------------------------------------------------------%
@@ -87,10 +88,21 @@ pause();
     
     % There are many more configuration options but for this example this 
     % should be enough.
+
+    
+    disp('Check temporary directory')
+    pause();
+    
     
 % There is one last thing we have to do. We will need a temporary directory
 % to store some data. Please manually create the directory '/scratch/$USER/tmp'
 % (replace '$USER' by your username)! You only need to do this once.
+
+% In case you have no idea about /scratch (which means that your are not
+% within the IENT network, specify the temporary directory by uncommenting
+% and modifying the following line
+
+%     conf.tmp_dir = '/some/tmp/directory/';
 
 % Ok, we have finished the preparation! Then let's submit our job: 
 % (press a key to run the script if you haven't already)
