@@ -94,8 +94,9 @@ pause();
     pause();
     
     
-% There is one last thing we have to do. We will need a temporary directory
-% to store some data. Please manually create the directory '/scratch/$USER/tmp'
+% There is one last thing we have to do. We will need a temporary directory 
+% and a results directory to store some data. Please manually create the 
+% directories '/scratch/$USER/tmp' and  '/scratch/$USER/queue_results'
 % (replace '$USER' by your username)! You only need to do this once.
 
 % In case you have no idea about /scratch (which means that your are not
@@ -103,6 +104,8 @@ pause();
 % and modifying the following line
 
 %     conf.tmp_dir = '/some/tmp/directory/';
+%     conf.result_dir = '/some/result/directory/';
+
 
 % Ok, we have finished the preparation! Then let's submit our job: 
 % (press a key to run the script if you haven't already)
